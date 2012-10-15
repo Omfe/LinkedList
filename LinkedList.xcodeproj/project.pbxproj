@@ -7,102 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99D56CFD162BAEF9003A0E03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56CFC162BAEF9003A0E03 /* UIKit.framework */; };
-		99D56CFF162BAEF9003A0E03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56CFE162BAEF9003A0E03 /* Foundation.framework */; };
-		99D56D01162BAEF9003A0E03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56D00162BAEF9003A0E03 /* CoreGraphics.framework */; };
-		99D56D07162BAEF9003A0E03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D05162BAEF9003A0E03 /* InfoPlist.strings */; };
-		99D56D09162BAEF9003A0E03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D08162BAEF9003A0E03 /* main.m */; };
-		99D56D0D162BAEFA003A0E03 /* LLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D0C162BAEFA003A0E03 /* LLAppDelegate.m */; };
-		99D56D0F162BAEFA003A0E03 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D0E162BAEFA003A0E03 /* Default.png */; };
-		99D56D11162BAEFA003A0E03 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D10162BAEFA003A0E03 /* Default@2x.png */; };
-		99D56D13162BAEFA003A0E03 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D12162BAEFA003A0E03 /* Default-568h@2x.png */; };
-		99D56D16162BAEFA003A0E03 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D15162BAEFA003A0E03 /* LLViewController.m */; };
-		99D56D19162BAEFA003A0E03 /* LLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D17162BAEFA003A0E03 /* LLViewController.xib */; };
+		99D56D2F162BB166003A0E03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56D2E162BB166003A0E03 /* UIKit.framework */; };
+		99D56D31162BB166003A0E03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56D30162BB166003A0E03 /* Foundation.framework */; };
+		99D56D33162BB166003A0E03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56D32162BB166003A0E03 /* CoreGraphics.framework */; };
+		99D56D39162BB166003A0E03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D37162BB166003A0E03 /* InfoPlist.strings */; };
+		99D56D3B162BB166003A0E03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D3A162BB166003A0E03 /* main.m */; };
+		99D56D3F162BB166003A0E03 /* LLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D3E162BB166003A0E03 /* LLAppDelegate.m */; };
+		99D56D41162BB166003A0E03 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D40162BB166003A0E03 /* Default.png */; };
+		99D56D43162BB166003A0E03 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D42162BB166003A0E03 /* Default@2x.png */; };
+		99D56D45162BB166003A0E03 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D44162BB166003A0E03 /* Default-568h@2x.png */; };
+		99D56D48162BB166003A0E03 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D47162BB166003A0E03 /* LLViewController.m */; };
+		99D56D4B162BB166003A0E03 /* LLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D49162BB166003A0E03 /* LLViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		99D56CF8162BAEF9003A0E03 /* LinkedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		99D56CFC162BAEF9003A0E03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		99D56CFE162BAEF9003A0E03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		99D56D00162BAEF9003A0E03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		99D56D04162BAEF9003A0E03 /* LinkedList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedList-Info.plist"; sourceTree = "<group>"; };
-		99D56D06162BAEF9003A0E03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		99D56D08162BAEF9003A0E03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		99D56D0A162BAEF9003A0E03 /* LinkedList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedList-Prefix.pch"; sourceTree = "<group>"; };
-		99D56D0B162BAEF9003A0E03 /* LLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppDelegate.h; sourceTree = "<group>"; };
-		99D56D0C162BAEFA003A0E03 /* LLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppDelegate.m; sourceTree = "<group>"; };
-		99D56D0E162BAEFA003A0E03 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		99D56D10162BAEFA003A0E03 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		99D56D12162BAEFA003A0E03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		99D56D14162BAEFA003A0E03 /* LLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
-		99D56D15162BAEFA003A0E03 /* LLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
-		99D56D18162BAEFA003A0E03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLViewController.xib; sourceTree = "<group>"; };
+		99D56D2A162BB166003A0E03 /* LinkedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D56D2E162BB166003A0E03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99D56D30162BB166003A0E03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99D56D32162BB166003A0E03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99D56D36162BB166003A0E03 /* LinkedList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedList-Info.plist"; sourceTree = "<group>"; };
+		99D56D38162BB166003A0E03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99D56D3A162BB166003A0E03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99D56D3C162BB166003A0E03 /* LinkedList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedList-Prefix.pch"; sourceTree = "<group>"; };
+		99D56D3D162BB166003A0E03 /* LLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppDelegate.h; sourceTree = "<group>"; };
+		99D56D3E162BB166003A0E03 /* LLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppDelegate.m; sourceTree = "<group>"; };
+		99D56D40162BB166003A0E03 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		99D56D42162BB166003A0E03 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		99D56D44162BB166003A0E03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		99D56D46162BB166003A0E03 /* LLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
+		99D56D47162BB166003A0E03 /* LLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
+		99D56D4A162BB166003A0E03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		99D56CF5162BAEF9003A0E03 /* Frameworks */ = {
+		99D56D27162BB166003A0E03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D56CFD162BAEF9003A0E03 /* UIKit.framework in Frameworks */,
-				99D56CFF162BAEF9003A0E03 /* Foundation.framework in Frameworks */,
-				99D56D01162BAEF9003A0E03 /* CoreGraphics.framework in Frameworks */,
+				99D56D2F162BB166003A0E03 /* UIKit.framework in Frameworks */,
+				99D56D31162BB166003A0E03 /* Foundation.framework in Frameworks */,
+				99D56D33162BB166003A0E03 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		99D56CED162BAEF9003A0E03 = {
+		99D56D1F162BB166003A0E03 = {
 			isa = PBXGroup;
 			children = (
-				99D56D02162BAEF9003A0E03 /* LinkedList */,
-				99D56CFB162BAEF9003A0E03 /* Frameworks */,
-				99D56CF9162BAEF9003A0E03 /* Products */,
+				99D56D34162BB166003A0E03 /* LinkedList */,
+				99D56D2D162BB166003A0E03 /* Frameworks */,
+				99D56D2B162BB166003A0E03 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		99D56CF9162BAEF9003A0E03 /* Products */ = {
+		99D56D2B162BB166003A0E03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99D56CF8162BAEF9003A0E03 /* LinkedList.app */,
+				99D56D2A162BB166003A0E03 /* LinkedList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		99D56CFB162BAEF9003A0E03 /* Frameworks */ = {
+		99D56D2D162BB166003A0E03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				99D56CFC162BAEF9003A0E03 /* UIKit.framework */,
-				99D56CFE162BAEF9003A0E03 /* Foundation.framework */,
-				99D56D00162BAEF9003A0E03 /* CoreGraphics.framework */,
+				99D56D2E162BB166003A0E03 /* UIKit.framework */,
+				99D56D30162BB166003A0E03 /* Foundation.framework */,
+				99D56D32162BB166003A0E03 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		99D56D02162BAEF9003A0E03 /* LinkedList */ = {
+		99D56D34162BB166003A0E03 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				99D56D0B162BAEF9003A0E03 /* LLAppDelegate.h */,
-				99D56D0C162BAEFA003A0E03 /* LLAppDelegate.m */,
-				99D56D14162BAEFA003A0E03 /* LLViewController.h */,
-				99D56D15162BAEFA003A0E03 /* LLViewController.m */,
-				99D56D17162BAEFA003A0E03 /* LLViewController.xib */,
-				99D56D03162BAEF9003A0E03 /* Supporting Files */,
+				99D56D3D162BB166003A0E03 /* LLAppDelegate.h */,
+				99D56D3E162BB166003A0E03 /* LLAppDelegate.m */,
+				99D56D46162BB166003A0E03 /* LLViewController.h */,
+				99D56D47162BB166003A0E03 /* LLViewController.m */,
+				99D56D49162BB166003A0E03 /* LLViewController.xib */,
+				99D56D35162BB166003A0E03 /* Supporting Files */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
 		};
-		99D56D03162BAEF9003A0E03 /* Supporting Files */ = {
+		99D56D35162BB166003A0E03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				99D56D04162BAEF9003A0E03 /* LinkedList-Info.plist */,
-				99D56D05162BAEF9003A0E03 /* InfoPlist.strings */,
-				99D56D08162BAEF9003A0E03 /* main.m */,
-				99D56D0A162BAEF9003A0E03 /* LinkedList-Prefix.pch */,
-				99D56D0E162BAEFA003A0E03 /* Default.png */,
-				99D56D10162BAEFA003A0E03 /* Default@2x.png */,
-				99D56D12162BAEFA003A0E03 /* Default-568h@2x.png */,
+				99D56D36162BB166003A0E03 /* LinkedList-Info.plist */,
+				99D56D37162BB166003A0E03 /* InfoPlist.strings */,
+				99D56D3A162BB166003A0E03 /* main.m */,
+				99D56D3C162BB166003A0E03 /* LinkedList-Prefix.pch */,
+				99D56D40162BB166003A0E03 /* Default.png */,
+				99D56D42162BB166003A0E03 /* Default@2x.png */,
+				99D56D44162BB166003A0E03 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,13 +110,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99D56CF7162BAEF9003A0E03 /* LinkedList */ = {
+		99D56D29162BB166003A0E03 /* LinkedList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99D56D1C162BAEFA003A0E03 /* Build configuration list for PBXNativeTarget "LinkedList" */;
+			buildConfigurationList = 99D56D4E162BB166003A0E03 /* Build configuration list for PBXNativeTarget "LinkedList" */;
 			buildPhases = (
-				99D56CF4162BAEF9003A0E03 /* Sources */,
-				99D56CF5162BAEF9003A0E03 /* Frameworks */,
-				99D56CF6162BAEF9003A0E03 /* Resources */,
+				99D56D26162BB166003A0E03 /* Sources */,
+				99D56D27162BB166003A0E03 /* Frameworks */,
+				99D56D28162BB166003A0E03 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,77 +124,77 @@
 			);
 			name = LinkedList;
 			productName = LinkedList;
-			productReference = 99D56CF8162BAEF9003A0E03 /* LinkedList.app */;
+			productReference = 99D56D2A162BB166003A0E03 /* LinkedList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		99D56CEF162BAEF9003A0E03 /* Project object */ = {
+		99D56D21162BB166003A0E03 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LL;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Omar Gudino";
 			};
-			buildConfigurationList = 99D56CF2162BAEF9003A0E03 /* Build configuration list for PBXProject "LinkedList" */;
+			buildConfigurationList = 99D56D24162BB166003A0E03 /* Build configuration list for PBXProject "LinkedList" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 99D56CED162BAEF9003A0E03;
-			productRefGroup = 99D56CF9162BAEF9003A0E03 /* Products */;
+			mainGroup = 99D56D1F162BB166003A0E03;
+			productRefGroup = 99D56D2B162BB166003A0E03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99D56CF7162BAEF9003A0E03 /* LinkedList */,
+				99D56D29162BB166003A0E03 /* LinkedList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		99D56CF6162BAEF9003A0E03 /* Resources */ = {
+		99D56D28162BB166003A0E03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D56D07162BAEF9003A0E03 /* InfoPlist.strings in Resources */,
-				99D56D0F162BAEFA003A0E03 /* Default.png in Resources */,
-				99D56D11162BAEFA003A0E03 /* Default@2x.png in Resources */,
-				99D56D13162BAEFA003A0E03 /* Default-568h@2x.png in Resources */,
-				99D56D19162BAEFA003A0E03 /* LLViewController.xib in Resources */,
+				99D56D39162BB166003A0E03 /* InfoPlist.strings in Resources */,
+				99D56D41162BB166003A0E03 /* Default.png in Resources */,
+				99D56D43162BB166003A0E03 /* Default@2x.png in Resources */,
+				99D56D45162BB166003A0E03 /* Default-568h@2x.png in Resources */,
+				99D56D4B162BB166003A0E03 /* LLViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		99D56CF4162BAEF9003A0E03 /* Sources */ = {
+		99D56D26162BB166003A0E03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D56D09162BAEF9003A0E03 /* main.m in Sources */,
-				99D56D0D162BAEFA003A0E03 /* LLAppDelegate.m in Sources */,
-				99D56D16162BAEFA003A0E03 /* LLViewController.m in Sources */,
+				99D56D3B162BB166003A0E03 /* main.m in Sources */,
+				99D56D3F162BB166003A0E03 /* LLAppDelegate.m in Sources */,
+				99D56D48162BB166003A0E03 /* LLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		99D56D05162BAEF9003A0E03 /* InfoPlist.strings */ = {
+		99D56D37162BB166003A0E03 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				99D56D06162BAEF9003A0E03 /* en */,
+				99D56D38162BB166003A0E03 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		99D56D17162BAEFA003A0E03 /* LLViewController.xib */ = {
+		99D56D49162BB166003A0E03 /* LLViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				99D56D18162BAEFA003A0E03 /* en */,
+				99D56D4A162BB166003A0E03 /* en */,
 			);
 			name = LLViewController.xib;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		99D56D1A162BAEFA003A0E03 /* Debug */ = {
+		99D56D4C162BB166003A0E03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,10 +226,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
-		99D56D1B162BAEFA003A0E03 /* Release */ = {
+		99D56D4D162BB166003A0E03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,11 +248,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		99D56D1D162BAEFA003A0E03 /* Debug */ = {
+		99D56D4F162BB166003A0E03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -262,7 +264,7 @@
 			};
 			name = Debug;
 		};
-		99D56D1E162BAEFA003A0E03 /* Release */ = {
+		99D56D50162BB166003A0E03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -276,24 +278,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99D56CF2162BAEF9003A0E03 /* Build configuration list for PBXProject "LinkedList" */ = {
+		99D56D24162BB166003A0E03 /* Build configuration list for PBXProject "LinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99D56D1A162BAEFA003A0E03 /* Debug */,
-				99D56D1B162BAEFA003A0E03 /* Release */,
+				99D56D4C162BB166003A0E03 /* Debug */,
+				99D56D4D162BB166003A0E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99D56D1C162BAEFA003A0E03 /* Build configuration list for PBXNativeTarget "LinkedList" */ = {
+		99D56D4E162BB166003A0E03 /* Build configuration list for PBXNativeTarget "LinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99D56D1D162BAEFA003A0E03 /* Debug */,
-				99D56D1E162BAEFA003A0E03 /* Release */,
+				99D56D4F162BB166003A0E03 /* Debug */,
+				99D56D50162BB166003A0E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 99D56CEF162BAEF9003A0E03 /* Project object */;
+	rootObject = 99D56D21162BB166003A0E03 /* Project object */;
 }

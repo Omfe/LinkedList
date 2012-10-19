@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42950389163110A200C0291B /* LLCircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42950388163110A200C0291B /* LLCircleView.xib */; };
+		4295038E1631121E00C0291B /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4295038C1631121E00C0291B /* circle.png */; };
+		4295038F1631121E00C0291B /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4295038D1631121E00C0291B /* circle@2x.png */; };
+		42950391163112A600C0291B /* LLArrowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42950390163112A600C0291B /* LLArrowView.xib */; };
+		429503941631154800C0291B /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 429503921631154800C0291B /* arrow.png */; };
+		429503951631154800C0291B /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 429503931631154800C0291B /* arrow@2x.png */; };
 		99D56D2F162BB166003A0E03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56D2E162BB166003A0E03 /* UIKit.framework */; };
 		99D56D31162BB166003A0E03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56D30162BB166003A0E03 /* Foundation.framework */; };
 		99D56D33162BB166003A0E03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D56D32162BB166003A0E03 /* CoreGraphics.framework */; };
@@ -23,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42950388163110A200C0291B /* LLCircleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLCircleView.xib; sourceTree = "<group>"; };
+		4295038C1631121E00C0291B /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		4295038D1631121E00C0291B /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
+		42950390163112A600C0291B /* LLArrowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLArrowView.xib; sourceTree = "<group>"; };
+		429503921631154800C0291B /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		429503931631154800C0291B /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		99D56D2A162BB166003A0E03 /* LinkedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D56D2E162BB166003A0E03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99D56D30162BB166003A0E03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +71,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4295038B1631120E00C0291B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4295038C1631121E00C0291B /* circle.png */,
+				4295038D1631121E00C0291B /* circle@2x.png */,
+				429503921631154800C0291B /* arrow.png */,
+				429503931631154800C0291B /* arrow@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		99D56D1F162BB166003A0E03 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +121,9 @@
 				99D56D5E162BB8FD003A0E03 /* LLNode.m */,
 				99D56D60162D0956003A0E03 /* LLList.h */,
 				99D56D61162D0957003A0E03 /* LLList.m */,
+				42950388163110A200C0291B /* LLCircleView.xib */,
+				42950390163112A600C0291B /* LLArrowView.xib */,
+				4295038B1631120E00C0291B /* Images */,
 				99D56D35162BB166003A0E03 /* Supporting Files */,
 			);
 			path = LinkedList;
@@ -174,6 +200,12 @@
 				99D56D43162BB166003A0E03 /* Default@2x.png in Resources */,
 				99D56D45162BB166003A0E03 /* Default-568h@2x.png in Resources */,
 				99D56D4B162BB166003A0E03 /* LLViewController.xib in Resources */,
+				42950389163110A200C0291B /* LLCircleView.xib in Resources */,
+				4295038E1631121E00C0291B /* circle.png in Resources */,
+				4295038F1631121E00C0291B /* circle@2x.png in Resources */,
+				42950391163112A600C0291B /* LLArrowView.xib in Resources */,
+				429503941631154800C0291B /* arrow.png in Resources */,
+				429503951631154800C0291B /* arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

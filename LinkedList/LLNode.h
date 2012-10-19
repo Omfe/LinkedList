@@ -14,5 +14,6 @@
 @property (strong, nonatomic) LLNode *nextNode;
 
 - (id)initWithValue:(NSString *)value;
+- (void)flashBackground;
 
 @end

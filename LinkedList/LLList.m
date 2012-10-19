@@ -37,6 +37,7 @@
         currentNode.nextNode = newNode;
     }
     self.numberOfNodes++;
+    [self.delegate list:self didInsertNode:newNode];
 }
 
 - (void)deleteNodeAtIndex:(NSInteger *)index
@@ -47,17 +48,15 @@
 - (LLNode *)findNodeAtIndex:(NSInteger)index
 {
     LLNode *currentNode;
-    currentNode = self.headNode;
     
-    for (NSInteger i = 0; i == index ; i++)
-    {
+    currentNode = self.headNode;
+    for (NSInteger i = 0; i <= index ; i++) {
         if (i == index) {
             return currentNode;
         }
         currentNode = currentNode.nextNode;
     }
     return nil;
-    
 }
 
 - (NSString *) iterateListString

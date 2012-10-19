@@ -39,9 +39,21 @@
     self.numberOfNodes++;
 }
 
-- (void)deleteNodeAtIndex:(NSInteger *)index
+- (void)deleteNodeAtIndex:(NSInteger)index
 {
-    
+    LLNode *deleteNode;
+    LLNode *currentNode;
+    if (index != 0) {
+        currentNode = [self findNodeAtIndex:index - 1];
+        deleteNode = currentNode.nextNode;
+        currentNode.nextNode = deleteNode.nextNode;
+        deleteNode = nil;
+    } else {
+        deleteNode = self.headNode;
+        self.headNode = deleteNode.nextNode;
+        deleteNode = nil;
+    }
+    self.numberOfNodes--;
 }
 
 - (LLNode *)findNodeAtIndex:(NSInteger)index
@@ -49,7 +61,7 @@
     LLNode *currentNode;
     currentNode = self.headNode;
     
-    for (NSInteger i = 0; i == index ; i++)
+    for (NSInteger i = 0; i <= index ; i++)
     {
         if (i == index) {
             return currentNode;

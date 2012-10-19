@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LLNode : NSObject
+@interface LLNode : UIView
 
 @property (strong, nonatomic) NSString *value;
 @property (strong, nonatomic) LLNode *nextNode;
+
+- (id)initWithValue:(NSString *)value;
 
 @end

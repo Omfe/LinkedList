@@ -19,6 +19,7 @@
 		99D56D48162BB166003A0E03 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D47162BB166003A0E03 /* LLViewController.m */; };
 		99D56D4B162BB166003A0E03 /* LLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D56D49162BB166003A0E03 /* LLViewController.xib */; };
 		99D56D5F162BB8FD003A0E03 /* LLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D5E162BB8FD003A0E03 /* LLNode.m */; };
+		99D56D62162D0957003A0E03 /* LLList.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D56D61162D0957003A0E03 /* LLList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		99D56D4A162BB166003A0E03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLViewController.xib; sourceTree = "<group>"; };
 		99D56D5D162BB8FD003A0E03 /* LLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNode.h; sourceTree = "<group>"; };
 		99D56D5E162BB8FD003A0E03 /* LLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNode.m; sourceTree = "<group>"; };
+		99D56D60162D0956003A0E03 /* LLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLList.h; sourceTree = "<group>"; };
+		99D56D61162D0957003A0E03 /* LLList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				99D56D49162BB166003A0E03 /* LLViewController.xib */,
 				99D56D5D162BB8FD003A0E03 /* LLNode.h */,
 				99D56D5E162BB8FD003A0E03 /* LLNode.m */,
+				99D56D60162D0956003A0E03 /* LLList.h */,
+				99D56D61162D0957003A0E03 /* LLList.m */,
 				99D56D35162BB166003A0E03 /* Supporting Files */,
 			);
 			path = LinkedList;
@@ -183,6 +188,7 @@
 				99D56D3F162BB166003A0E03 /* LLAppDelegate.m in Sources */,
 				99D56D48162BB166003A0E03 /* LLViewController.m in Sources */,
 				99D56D5F162BB8FD003A0E03 /* LLNode.m in Sources */,
+				99D56D62162D0957003A0E03 /* LLList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

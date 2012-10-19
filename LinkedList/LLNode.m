@@ -10,4 +10,13 @@
 
 @implementation LLNode
 
+- (id)initWithValue:(NSString*)value
+{
+    self = [super init];
+    if (self) {
+        _value = value;
+    }
+    return self;
+}
+
 @end

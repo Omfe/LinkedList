@@ -40,9 +40,21 @@
     [self.delegate list:self didInsertNode:newNode];
 }
 
-- (void)deleteNodeAtIndex:(NSInteger *)index
+- (void)deleteNodeAtIndex:(NSInteger)index
 {
-    
+    LLNode *deleteNode;
+    LLNode *currentNode;
+    if (index != 0) {
+        currentNode = [self findNodeAtIndex:index - 1];
+        deleteNode = currentNode.nextNode;
+        currentNode.nextNode = deleteNode.nextNode;
+        deleteNode = nil;
+    } else {
+        deleteNode = self.headNode;
+        self.headNode = deleteNode.nextNode;
+        deleteNode = nil;
+    }
+    self.numberOfNodes--;
 }
 
 - (LLNode *)findNodeAtIndex:(NSInteger)index

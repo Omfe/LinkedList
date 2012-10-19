@@ -25,7 +25,7 @@
 @property (assign, nonatomic) id<LLListDelegate> delegate;
 
 - (void)insertNodeWithValue:(NSString *)value;
-- (void)deleteNodeAtIndex:(NSInteger *)index;
+- (void)deleteNodeAtIndex:(NSInteger)index;
 - (LLNode *)findNodeAtIndex:(NSInteger)index;
 - (NSString *)iterateListString;
 

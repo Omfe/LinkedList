@@ -108,6 +108,8 @@
 
 - (IBAction)deleteWasPressed:(id)sender
 {
+    NSInteger position = [[self positionFinderPickerView] selectedRowInComponent:0];
+    [self.list deleteNodeAtIndex: position ];
     [self.positionFinderPickerView reloadAllComponents];
 }
 

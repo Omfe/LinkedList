@@ -93,6 +93,7 @@
 
 - (void)list:(LLList *)list didDeleteNode:(LLNode *)node
 {
+    //while
     
 }
 

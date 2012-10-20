@@ -93,7 +93,19 @@
 
 - (void)list:(LLList *)list didDeleteNode:(LLNode *)node
 {
+    CGSize size;
     
+    [node removeFromSuperview];
+    
+#warning REEMPLAZAR ESTE COMENTARIO POR TU WHILE
+    // While para quitarle 100 pixeles a cada nodo que le seguía al que acabamos de borrar.
+    
+    //Hay que crecer el contenido del scroll view para que pueda hacer scroll.
+    size = self.nodesScrollView.contentSize;
+    size.width -= node.frame.size.width;
+    self.nodesScrollView.contentSize = size;
+    
+    [self.nodesScrollView flashScrollIndicators];
 }
 
 

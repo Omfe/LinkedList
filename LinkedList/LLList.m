@@ -48,13 +48,12 @@
         currentNode = [self findNodeAtIndex:index - 1];
         deleteNode = currentNode.nextNode;
         currentNode.nextNode = deleteNode.nextNode;
-        deleteNode = nil;
     } else {
         deleteNode = self.headNode;
         self.headNode = deleteNode.nextNode;
-        deleteNode = nil;
     }
     self.numberOfNodes--;
+#warning MANDA LLAMAR AL DELEGADO
 }
 
 - (LLNode *)findNodeAtIndex:(NSInteger)index

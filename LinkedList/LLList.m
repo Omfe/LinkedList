@@ -53,7 +53,7 @@
         self.headNode = deleteNode.nextNode;
     }
     self.numberOfNodes--;
-#warning MANDA LLAMAR AL DELEGADO
+    [self.delegate list:self didDeleteNode:deleteNode];
 }
 
 - (LLNode *)findNodeAtIndex:(NSInteger)index
